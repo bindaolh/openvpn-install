@@ -19,3 +19,10 @@ openVPN 可以加密你的网络流量，以防止在通过因特网传送时，
   * 卸载说明
   * 另见
 
+## 快速开始
+
+首先，在你的 Linux 服务器* 上全新安装一个 Ubuntu LTS, Debian 或者 CentOS 系统。
+
+使用以下命令快速搭建 openVPN 服务器：<br>
+```curl -O https://raw.githubusercontent.com/bindaolh/openvpn-install/setup.sh
+chmod +x setup.sh.sh```
