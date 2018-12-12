@@ -153,3 +153,30 @@ OpenVPN Connect 用于管理Apple iOS用于iPhone和iPad的OpenVPN连接。我�
 
 ![1](https://ask.qcloudimg.com/http-save/1206624/kjtq2you47.png?imageView2/2/w/1620)<br>
 注：导入配置文件并确认其工作正常后，将客户端凭据文件备份到外部存储，并从设备中删除密钥和证书文件。导入后，它们将驻留在客户端的VPN配置文件中，不再需要保留在其内部存储中，这是其他应用程序可以读取的。
+
+
+## Linux
+
+### ubuntu
+
+1.安装openvpn<br>
+sudo apt-get install openvpn
+2.配置openvpn<br>
+首先将OpenVPN服务器提供的配置文件client.ovpn复制到 /etc/openvpn/中
+
+3.连接openvpn<br>
+sudo openvpn /etc/openvpn/client.ovpn
+4.用别名来优化开启openvpn的命令<br>
+编辑.bashrc文件，在文件中如下图后边加入一行
+
+ 
+sudo vim .bashrc
+
+alias vpn='sudo openvpn /etc/openvpn/client.ovpn' (插入之文件）
+保存后，执行 vpn  就可以直接连接openvpn。
+5.用ctrl+c强制断开vpn连接。
+上面的命令在实际中并不方便，因为它要占用一个独立的终端。在测试成功后，使用以下命令即可在后台连接OpenVPN：
+openvpn /etc/openvpn/client.ovpn > /dev/null &
+值得称赞的是，openvpn非常智能，在连接异常中断、无法连接服务器、断网的情况下，它会自动重连。因此，如果希望开机即自动连接OpenVPN，或者是VPN常年在线，则可将上述命令行加入
+/etc/rc.local
+中。注意，命令末尾的&符号不能省略，否则将可能阻塞系统的正常启动。
