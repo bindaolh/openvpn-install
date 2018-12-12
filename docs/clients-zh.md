@@ -11,3 +11,13 @@
   * Android
   * iOS (iPhone/iPad)
   * Linux
+* 故障排除<br>
+
+
+
+
+
+
+
+
+##Windows
