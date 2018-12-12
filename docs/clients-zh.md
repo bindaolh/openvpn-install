@@ -58,11 +58,36 @@ Windows
 3、点击安装包，下一步下一步进行安装<br>
 ![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/4.png)
 
-4、安装完毕，在右下角出现一个红色电脑图标
+4、安装完毕，在右下角出现一个红色电脑图标<br>
 ![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/5.png)
 
 5、将客户端证书文件移动到C:\Program Files\OpenVPN\config
 
 6、启动客户端程序，在任务栏的右下方有个红色小图标，双机就可以启动了，连接成功后出现下面界面,窗口自动关闭，右下标的颜色变成绿色<br>
-![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/6.png)
+![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/6.png)<br>
 ![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/7.png)
+
+## macOS版
+由于openvpn官方没有开发适用于mac os 的客户端，所以只能用第三方开发的。Tunnelblick是一个免费的开源应用程序，可让您将OS X和macOS连接到OpenVPN服务器.<br>
+
+1、Tunnelblick 第三方软件，完全免费，并且适用于openvpn的配置。
+下载地址：[http://code.google.com/p/tunnelblick/wiki/DownloadsEntry?tm=2](http://code.google.com/p/tunnelblick/wiki/DownloadsEntry?tm=2)
+
+2、安装Tunnelblick
+下载完成之后是一个dmg格式的文件，打开文件安装（如下图）
+
+![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/7.1.png)
+
+![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/8.png)
+
+3、双击给你的文件中解压出来的 .ovpn 文件。（可根据你自己需要选择）
+
+![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/9.png)
+
+4、安装完成后，在屏幕右上角有一个‘n’型图标。点开->连接，连接成功如下图显示
+
+![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/10.png)<br>
+![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/11.png)
+
+## Android版
+
