@@ -6,11 +6,11 @@
 
 ----------------------------------------------------------
 * 平台名称<br>
-  * Windows
-  * OS X (macOS)
-  * Android
-  * iOS (iPhone/iPad)
-  * Linux
+  * [Windows](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#windows)
+  * [OS X (macOS)](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#OS X (macOS))
+  * [Android](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#Android)
+  * [iOS (iPhone/iPad)](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#iOS (iPhone/iPad))
+  * [Linux](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#Linux)
 * 故障排除<br>
 
 
@@ -70,7 +70,7 @@ Windows
 
 
 
-## macOS版
+## OS X (macOS)
 
 由于openvpn官方没有开发适用于mac os 的客户端，所以只能用第三方开发的。Tunnelblick是一个免费的开源应用程序，可让您将OS X和macOS连接到OpenVPN服务器.<br>
 
@@ -94,7 +94,7 @@ Windows
 ![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/11.png)
 
 
-## Android版
+## Android
 Android OpenVPN客户端有两个主选项。第一个是在 Google Play上的OpenVPN Connect，它是OpenVPN技术公司的官方客户，也是OpenVPN背后的母公司。第二个选项则是Google Play和F-droid上的OpenVPN for Android。这两个客户端是类似的，但OpenVPN for Android是开源的，功能更丰富，并且经常更新，所以我们将它。<br>
 ```注意 如果您有Windows计算机或是Linux计算机安装了gvfs-backends的软件包，则可以通过USB连接该设备，它将作为外部USB设备显示在系统的文件管理器中。如果您有macOS设备，则需要先安装Android文件传输。```
 
@@ -122,7 +122,7 @@ Android OpenVPN客户端有两个主选项。第一个是在 Google Play上的Op
 <b>注：导入配置文件并确认一切正常后，将客户端证书文件备份到外部存储，并从设备中删除密钥和证书文件。导入后，它们将驻留在客户端的VPN配置文件中，不再需要保留在其内部存储中，这是其他应用程序可读取的。</b>
 
 
-## iOS版
+## iOS (iPhone/iPad)
 
 OpenVPN Connect 用于管理Apple iOS用于iPhone和iPad的OpenVPN连接。我们将使用iTunes将文件从运行macOS或Windows的计算机中传输到iOS设备。带有组件gvfs-backends的Linux计算机可以将iOS设备安装为外部存储。
 
