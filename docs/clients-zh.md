@@ -104,4 +104,52 @@ Android OpenVPN客户端有两个主选项。第一个是在 Google Play上的Op
 2、将VPN客户端证书从本地计算机复制到Android设备。您可以将它们放入目录中的../Internal storage/的文件夹中。
 
 3、断开设备与USB的连接并启动OpenVPN for Android。要导入VPN配置文件，请点击右上角的“导入”图标。
-![1](https://ask.qcloudimg.com/http-save/1206624/bihkd6xlnm.png?imageView2/2/w/1620)
+
+![1](https://ask.qcloudimg.com/http-save/1206624/bihkd6xlnm.png?imageView2/2/w/1620)<br>
+然后，您将看到文件浏览器。导航到您在上一步中复制到设备的文件夹，然后点击该client.ovpn文件将其作为VPN配置文件导入。
+
+![1](https://ask.qcloudimg.com/http-save/1206624/aljgxrgvta.png?imageView2/2/w/1620)<br>
+
+4、在“ 转换配置文件”屏幕上，验证证书和密钥文件名是否正确。然后点击屏幕右上角的对勾符号以完成导入过程。
+
+![1](https://ask.qcloudimg.com/http-save/1206624/8sppyfpfeg.png?imageView2/2/w/1620)<br>
+
+5、要连接到VPN服务器，请点击刚刚创建的配置文件并确认连接请求。日志屏幕将显示连接状态，不久之后，Android将被连接。您可以在应用程序的“设置”选项卡中进一步自定义配置文件。<br>
+
+![1](https://ask.qcloudimg.com/http-save/1206624/679jtvy62n.png?imageView2/2/w/1620)<br>
+![1](https://ask.qcloudimg.com/http-save/1206624/xu45twaemo.png?imageView2/2/w/1620)<br>
+![1](https://ask.qcloudimg.com/http-save/1206624/3qzr226n8s.png?imageView2/2/w/1620)<br>
+<b>注：导入配置文件并确认一切正常后，将客户端证书文件备份到外部存储，并从设备中删除密钥和证书文件。导入后，它们将驻留在客户端的VPN配置文件中，不再需要保留在其内部存储中，这是其他应用程序可读取的。</b>
+
+
+## iOS版
+
+OpenVPN Connect 用于管理Apple iOS用于iPhone和iPad的OpenVPN连接。我们将使用iTunes将文件从运行macOS或Windows的计算机中传输到iOS设备。带有组件gvfs-backends的Linux计算机可以将iOS设备安装为外部存储。
+
+```注意 以下示例使用 iTunes 12 和OpenVPN Connect 1.0.5在 iOS 9.0.2和macOS 10.10上运行。```
+
+1、确保您的iOS设备已更新完成，然后从iTunes App Store 安装OpenVPN Connect。<br>
+
+![1](https://ask.qcloudimg.com/http-save/1206624/bu17f0m841.png?imageView2/2/w/1620)<br>
+
+2、将iOS设备连接到运行macOS或Windows系统的计算机，打开iTunes。<br>
+3、选择菜单栏左上角附近的iPad或iPhone图标。<br>
+注意 如果这是您第一次将iOS设备连接到iTunes，则需要单击溢出菜单（三个水平点）并选择“ 应用程序”，然后单击“开始”。
+
+![1](https://ask.qcloudimg.com/http-save/1206624/nuvq0mtqx5.png?imageView2/2/w/1620)<br>
+4、在左侧边栏中，选择“ 应用程序”并向下滚动到主窗口中的“ 文件共享”类别。您将看到OpenVPN Connect的图标。单击它，然后单击“ OpenVPN文档”框中的“ 添加 ”。导航到Finder中的ta.key文件和客户端配置的.opvn文件，然后将它们拖到iTunes窗口中。如果您要单独添加它们，请在客户端配置文件或OpenVPN Connect无法找到密钥之前添加密钥。<br>
+
+![1](https://ask.qcloudimg.com/http-save/1206624/exxl4cmnkf.png?imageView2/2/w/1620)<br>
+5、在iOS设备上打开OpenVPN Connect应用程序。您将看到一个区域表示可以导入新的OpenVPN配置文件。点击它以突出显示配置文件，然后点击绿色按钮添加它。<br>
+
+![1](https://ask.qcloudimg.com/http-save/1206624/cc1v623ml7.png?imageView2/2/w/1620)<br>
+6、在下一个屏幕画面中，点击“ 连接”滑块以连接到VPN服务器。
+
+![1](https://ask.qcloudimg.com/http-save/1206624/ip1rciq8h4.png?imageView2/2/w/1620)<br>
+7、您将看到一个通知提示，要求允许OpenVPN启用连接。选择是。iOS将在不久之后连接。
+
+![1](https://ask.qcloudimg.com/http-save/1206624/4rjd1ex2sq.png?imageView2/2/w/1620)<br>
+8、OpenVPN Connect的应用程序设置可用于进一步调整连接。例如，您可以指定VPN是通过WiFi或是蜂窝网络连接还是两者使用。有关每个选项的说明，[请参阅OpenVPN Connect iOS常见问题解答](https://docs.openvpn.net/docs/openvpn-connect/openvpn-connect-ios-faq.html)。
+
+![1](https://ask.qcloudimg.com/http-save/1206624/kjtq2you47.png?imageView2/2/w/1620)<br>
+注：导入配置文件并确认其工作正常后，将客户端凭据文件备份到外部存储，并从设备中删除密钥和证书文件。导入后，它们将驻留在客户端的VPN配置文件中，不再需要保留在其内部存储中，这是其他应用程序可以读取的。
