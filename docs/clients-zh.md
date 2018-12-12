@@ -12,10 +12,8 @@
   * [iOS (iPhone/iPad)](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#ios-iphoneipad)
   * [Linux](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#Linux)
 * 故障排除<br>
-  * 连接失败
-  * 连接成功无法访问网络
-
-
+  * [连接失败](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#连接失败)
+  * [连接成功无法访问网络](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#连接成功无法访问网络)
 
 
 
@@ -203,7 +201,7 @@ vpn > /dev/null &
 
 3、查看你运行的命令是否正确？
 
-##连接成功无法访问网络
+## 连接成功无法访问网络
 
 1、检查本机防火墙配置
 
