@@ -9,7 +9,7 @@
   * [Windows](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#windows)
   * [OS X (macOS)](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#os-x)
   * [Android](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#Android)
-  * [iOS (iPhone/iPad)](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#iOS (iPhone/iPad))
+  * [iOS (iPhone/iPad)](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#ios-iphoneipad)
   * [Linux](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#Linux)
 * 故障排除<br>
 
