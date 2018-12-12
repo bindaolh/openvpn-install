@@ -43,8 +43,9 @@ Windows
 5、当您启动OpenVPN应用程序时，其图标将显示在任务栏中。右键单击它并选择“ 连接”。OpenVPN任务栏图标将变为黄色，将出现一个对话框，显示连接过程的详细输出。成功连接后，图标将变为绿色并显示一个确认气泡,表示连接成功。<br>
 
   ![图标变为绿色](https://github.com/bindaolh/openvpn-install/blob/master/pic/2.png)
-  
-  ##windows xp 安装使用openVPN 客户端
+
+
+## windows xp 安装使用openVPN 客户端
 
 1、下载客户端安装包
 下载地址（根据自己的系统选择对应的安装包）
@@ -67,7 +68,10 @@ Windows
 ![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/6.png)<br>
 ![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/7.png)
 
+
+
 ## macOS版
+
 由于openvpn官方没有开发适用于mac os 的客户端，所以只能用第三方开发的。Tunnelblick是一个免费的开源应用程序，可让您将OS X和macOS连接到OpenVPN服务器.<br>
 
 1、Tunnelblick 第三方软件，完全免费，并且适用于openvpn的配置。
@@ -89,5 +93,15 @@ Windows
 ![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/10.png)<br>
 ![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/11.png)
 
-## Android版
 
+## Android版
+Android OpenVPN客户端有两个主选项。第一个是在 Google Play上的OpenVPN Connect，它是OpenVPN技术公司的官方客户，也是OpenVPN背后的母公司。第二个选项则是Google Play和F-droid上的OpenVPN for Android。这两个客户端是类似的，但OpenVPN for Android是开源的，功能更丰富，并且经常更新，所以我们将它。<br>
+```注意 如果您有Windows计算机或是Linux计算机安装了gvfs-backends的软件包，则可以通过USB连接该设备，它将作为外部USB设备显示在系统的文件管理器中。如果您有macOS设备，则需要先安装Android文件传输。```
+
+1、下载安装客户端软件OpenVPN for Android<br>
+[https://f-droid.org/packages/de.blinkt.openvpn](https://f-droid.org/packages/de.blinkt.openvpn/)
+
+2、将VPN客户端证书从本地计算机复制到Android设备。您可以将它们放入目录中的../Internal storage/的文件夹中。
+
+3、断开设备与USB的连接并启动OpenVPN for Android。要导入VPN配置文件，请点击右上角的“导入”图标。
+![1](https://ask.qcloudimg.com/http-save/1206624/bihkd6xlnm.png?imageView2/2/w/1620)
