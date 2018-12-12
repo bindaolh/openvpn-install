@@ -23,4 +23,9 @@
 Windows
 ==============
 
-## Windows 10 and 8.x
+## Windows 10 and 8.x adn 7.x
+1、上官网下载Windows客户端：[https://openvpn.net/index.php/open-source/downloads.html](https://openvpn.net/index.php/open-source/downloads.html)<br>
+2、默认安装，选择easy-rsa，安装路径默认为C:\Program Files\OpenVPN
+注意：当系统提示有关TAP网络适配器时，请务必同时安装它。
+![提示这个的时候](https://github.com/bindaolh/openvpn-install/blob/master/pic/1.png)
+3、将客户端放在这个文件夹C:\Program Files\OpenVPN\config
