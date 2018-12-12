@@ -25,14 +25,14 @@ Windows
 ==============
 
 ## Windows 10 and 8.x adn 7.x
-1. Download the Windows client on Shangguan.com: [https://openvpn.net/index.php/open-source/downloads.html] (https://openvpn.net/index.php/open-source/downloads.html ) <br> or link: [https://pan.baidu.com/s/1_o3nZ2zL5y94WQ7-w7zLQw](https://pan.baidu.com/s/1_o3nZ2zL5y94WQ7-w7zLQw)
+1. Download the Windows client on Shangguan.com: [https://openvpn.net/index.php/open-source/downloads.html](https://openvpn.net/index.php/open-source/downloads.html) <br> or link: [https://pan.baidu.com/s/1_o3nZ2zL5y94WQ7-w7zLQw](https://pan.baidu.com/s/1_o3nZ2zL5y94WQ7-w7zLQw)
 Extraction code: k0ck
 
 2, the default installation, select easy-rsa, the installation path defaults to C:\Program Files\OpenVPN<br>
 
    <b>Note: When prompted with the TAP network adapter, be sure to install it at the same time. </b><br>
 
-![When prompted this] (https://github.com/bindaolh/openvpn-install/blob/master/pic/1.png)
+![When prompted this](https://github.com/bindaolh/openvpn-install/blob/master/pic/1.png)
 
 3. Move the client certificate file to C:\Program Files\OpenVPN\config
 
@@ -50,8 +50,8 @@ Option 2: Configure shortcuts to run automatically with administrator privileges
 
 1, download the client installation package
 Download address (select the corresponding installation package according to your own system)
-32-bit [http://swupdate.openvpn.org/community/releases/openvpn-install-2.3.0-I005-i686.exe] (http://swupdate.openvpn.org/community/releases/openvpn-install- 2.3.0-I005-i686.exe)
-64-bit [http://swupdate.openvpn.org/community/releases/openvpn-install-2.3.0-I005-x86_64.exe] (http://swupdate.openvpn.org/community/releases/openvpn-install- 2.3.0-I005-x86_64.exe)
+32-bit [http://swupdate.openvpn.org/community/releases/openvpn-install-2.3.0-I005-i686.exe](http://swupdate.openvpn.org/community/releases/openvpn-install- 2.3.0-I005-i686.exe)
+64-bit [http://swupdate.openvpn.org/community/releases/openvpn-install-2.3.0-I005-x86_64.exe](http://swupdate.openvpn.org/community/releases/openvpn-install- 2.3.0-I005-x86_64.exe)
 
 2, find the installed program
 Right click --- attribute - compatibility, hook on two places, choose your own system<br>
@@ -76,7 +76,7 @@ Right click --- attribute - compatibility, hook on two places, choose your own s
 Since openvpn officially does not develop a client for mac os, it can only be developed by a third party. Tunnelblick is a free open source application that allows you to connect OS X and macOS to an OpenVPN server.<br>
 
 1. Tunnelblick third-party software, completely free, and suitable for openvpn configuration.
-Download address: [http://code.google.com/p/tunnelblick/wiki/DownloadsEntry?tm=2](http://code.google.com/p/tunnelblick/wiki/DownloadsEntry?tm=2)
+Download address:[http://code.google.com/p/tunnelblick/wiki/DownloadsEntry?tm=2](http://code.google.com/p/tunnelblick/wiki/DownloadsEntry?tm=2)
 
 2, install Tunnelblick
 After the download is completed, it is a file in dmg format, open the file installation (as shown below)
