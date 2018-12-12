@@ -7,7 +7,7 @@
 ----------------------------------------------------------
 * 平台名称<br>
   * [Windows](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#windows)
-  * [OS X (macOS)](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#OS X (macOS))
+  * [OS X (macOS)](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#OS X)
   * [Android](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#Android)
   * [iOS (iPhone/iPad)](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#iOS (iPhone/iPad))
   * [Linux](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#Linux)
@@ -70,7 +70,7 @@ Windows
 
 
 
-## OS X (macOS)
+## OS X
 
 由于openvpn官方没有开发适用于mac os 的客户端，所以只能用第三方开发的。Tunnelblick是一个免费的开源应用程序，可让您将OS X和macOS连接到OpenVPN服务器.<br>
 
