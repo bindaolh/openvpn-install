@@ -24,7 +24,8 @@ Windows
 ==============
 
 ## Windows 10 and 8.x adn 7.x
-1、上官网下载Windows客户端：[https://openvpn.net/index.php/open-source/downloads.html](https://openvpn.net/index.php/open-source/downloads.html)<br>
+1、上官网下载Windows客户端：[https://openvpn.net/index.php/open-source/downloads.html](https://openvpn.net/index.php/open-source/downloads.html)<br>或者链接：[https://pan.baidu.com/s/1_o3nZ2zL5y94WQ7-w7zLQw](https://pan.baidu.com/s/1_o3nZ2zL5y94WQ7-w7zLQw)
+提取码：k0ck 
 
 2、默认安装，选择easy-rsa，安装路径默认为C:\Program Files\OpenVPN<br> 
 
@@ -42,5 +43,26 @@ Windows
 5、当您启动OpenVPN应用程序时，其图标将显示在任务栏中。右键单击它并选择“ 连接”。OpenVPN任务栏图标将变为黄色，将出现一个对话框，显示连接过程的详细输出。成功连接后，图标将变为绿色并显示一个确认气泡,表示连接成功。<br>
 
   ![图标变为绿色](https://github.com/bindaolh/openvpn-install/blob/master/pic/2.png)
+  
+  ##windows xp 安装使用openVPN 客户端
 
+1、下载客户端安装包
+下载地址（根据自己的系统选择对应的安装包）
+32位 [http://swupdate.openvpn.org/community/releases/openvpn-install-2.3.0-I005-i686.exe](http://swupdate.openvpn.org/community/releases/openvpn-install-2.3.0-I005-i686.exe)
+64位 [http://swupdate.openvpn.org/community/releases/openvpn-install-2.3.0-I005-x86_64.exe](http://swupdate.openvpn.org/community/releases/openvpn-install-2.3.0-I005-x86_64.exe)
 
+2、找到安装的程序
+右击---属性-兼容性，两个地方钩上，选择自己的系统<br>
+![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/3.png)
+
+3、点击安装包，下一步下一步进行安装<br>
+![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/4.png)
+
+4、安装完毕，在右下角出现一个红色电脑图标
+![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/5.png)
+
+5、将客户端证书文件移动到C:\Program Files\OpenVPN\config
+
+6、启动客户端程序，在任务栏的右下方有个红色小图标，双机就可以启动了，连接成功后出现下面界面,窗口自动关闭，右下标的颜色变成绿色<br>
+![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/6.png)
+![1](https://github.com/bindaolh/openvpn-install/blob/master/pic/7.png)
