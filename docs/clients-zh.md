@@ -41,6 +41,6 @@ Windows
 
 5、当您启动OpenVPN应用程序时，其图标将显示在任务栏中。右键单击它并选择“ 连接”。OpenVPN任务栏图标将变为黄色，将出现一个对话框，显示连接过程的详细输出。成功连接后，图标将变为绿色并显示一个确认气泡<br>
 
-  [图标变为绿色](https://github.com/bindaolh/openvpn-install/blob/master/pic/2.png)
+  ![图标变为绿色](https://github.com/bindaolh/openvpn-install/blob/master/pic/2.png)
 
 
