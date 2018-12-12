@@ -1,20 +1,20 @@
 
 Configuring the openVPN client
 =================
-<i>Other language versions:</i> [English](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients.md), [Simplified Chinese] (https://github .com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md). <br>
+<i>Other language versions:</i> [English](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients.md), [Simplified Chinese] (https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md). <br>
 
 After successfully building your own VPN server, follow the steps below to configure your device. openVPN is supported on Android, iOS, OS X and Windows without the need to install additional software. The setup process usually takes only a few minutes. If you are unable to connect, first check if you have the correct VPN login credentials.
 
 -------------------------------------------------- --------
 * Platform name<br>
   * [Windows](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#windows)
-  * [OS X (macOS)] (https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#os-x)
+  * [OS X (macOS)](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#os-x)
   * [Android](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#Android)
-  * [iOS (iPhone/iPad)] (https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#ios-iphoneipad)
+  * [iOS (iPhone/iPad)](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#ios-iphoneipad)
   * [Linux](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#Linux)
 * Troubleshooting <br>
-  * [Connection failed] (https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#Connection failed)
-  * [Unable to access the network if the connection is successful] (https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#Connection failed to access the network)
+  * [Connection failed](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#Connection failed)
+  * [Unable to access the network if the connection is successful](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#Connection failed to access the network)
 
 
 
