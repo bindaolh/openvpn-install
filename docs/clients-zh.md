@@ -12,6 +12,8 @@
   * [iOS (iPhone/iPad)](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#ios-iphoneipad)
   * [Linux](https://github.com/bindaolh/openvpn-install/blob/master/docs/clients-zh.md#Linux)
 * 故障排除<br>
+  * 连接失败
+  * 连接成功无法访问网络
 
 
 
@@ -191,4 +193,21 @@ vpn > /dev/null &
 ### 其它 Linux
 
 其他版本的linux系统使用方法和ubuntu相似，只是安装的命令稍微有点区别，大家自行尝试！
+
+
+## 连接失败
+
+1、检查你使用的是管理员身份权限吗？如果不是请使用管理员权限！
+
+2、查看导入的配置文件是否正确？
+
+3、查看你运行的命令是否正确？
+
+##连接成功无法访问网络
+
+1、检查本机防火墙配置
+
+2、检查服务器端防火墙配置
+
+
 
